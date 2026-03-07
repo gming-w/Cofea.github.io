@@ -3,19 +3,18 @@
  */
 const CONFIG = {
   PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
-  PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
+  PROXIO_WELCOME_TEXT: '欢迎来到 Gming 的博客，点击任意位置进入', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
-  PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  PROXIO_HERO_TITLE_1: 'Gming 的个人博客', // 英雄区文字
+  PROXIO_HERO_TITLE_2: '记录学习、分享经验、探索技术', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  PROXIO_HERO_BUTTON_1_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
-  PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
+  PROXIO_HERO_BUTTON_1_TEXT: '开始阅读', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_URL: '/archive', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_TEXT: '关于我', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_URL: '/about', // 英雄区按钮
+  PROXIO_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   PROXIO_HERO_BANNER_IMAGE: '', // hero区背景，默认是获取Notion背景，如需另外配置图片可以填写在这里
@@ -23,8 +22,8 @@ const CONFIG = {
 
   // 文章区块
   PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-  PROXIO_BLOG_TITLE: '作品',
-  PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
+  PROXIO_BLOG_TITLE: '最新文章',
+  PROXIO_BLOG_COUNT: 6, // 首页博文区块展示前6篇文章
   PROXIO_BLOG_TEXT_1: '我的最新动态',
 
   // 区块默认内容显示文章的summary文本，但也支持用自定义图片或logo德国替换掉占位显示内容
@@ -177,19 +176,19 @@ const CONFIG = {
 
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
-  PROXIO_ABOUT_TITLE: '关于作者',
-  PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
+  PROXIO_ABOUT_TITLE: '关于我',
+  PROXIO_ABOUT_TEXT_1: 'Gming - 技术爱好者',
   PROXIO_ABOUT_TEXT_2:
-    'With a background in architecture, I now apply my expertise to product design, blending aesthetics, functionality, and innovation. My goal is to create modern, user-focused designs that bring your vision to life.',
+    '热爱技术，喜欢探索新事物。在这里分享我的学习笔记、技术心得和生活感悟。',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
-  PROXIO_ABOUT_KEY_1: '经验年限',
-  PROXIO_ABOUT_VAL_1: '10年+',
-  PROXIO_ABOUT_KEY_2: '客户',
-  PROXIO_ABOUT_VAL_2: '1000+',
-  PROXIO_ABOUT_KEY_3: '交付项目',
-  PROXIO_ABOUT_VAL_3: '5000+',
-  PROXIO_ABOUT_KEY_4: '累积创作时长（小时）',
-  PROXIO_ABOUT_VAL_4: '10000+',
+  PROXIO_ABOUT_KEY_1: '文章数量',
+  PROXIO_ABOUT_VAL_1: '持续更新',
+  PROXIO_ABOUT_KEY_2: '技术栈',
+  PROXIO_ABOUT_VAL_2: '全栈开发',
+  PROXIO_ABOUT_KEY_3: '兴趣爱好',
+  PROXIO_ABOUT_VAL_3: '编程、阅读',
+  PROXIO_ABOUT_KEY_4: '座右铭',
+  PROXIO_ABOUT_VAL_4: '学无止境',
 
   PROXIO_ABOUT_BUTTON_URL: '/about',
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
