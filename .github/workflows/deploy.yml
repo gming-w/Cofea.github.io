@@ -40,7 +40,9 @@ jobs:
           NEXT_PUBLIC_LINK: https://www.gming.space
           EXPORT: true
           BASE_PATH: ''
-        run: yarn build
+        run: |
+          echo "Building with NOTION_PAGE_ID (first 10 chars): ${NOTION_PAGE_ID:0:10}..."
+          yarn build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
